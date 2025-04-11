@@ -125,7 +125,7 @@ elif choice == "Register":
         else:
             st.error("⚠️ Please fill in all fields!")  
     
-    elif choice == "Login":
+elif choice == "Login":
         st.subheader("🔑 User Login") 
         
         if time.time() < st.session_state.lockout_time:
